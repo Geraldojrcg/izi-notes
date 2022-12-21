@@ -36,7 +36,7 @@ async function Notes() {
           >
             <Link
               href={`/note-editor/${note.id}`}
-              className="text-xl font-bold underline"
+              className="line-clamp-1 text-xl font-bold underline"
             >
               {note.title}
             </Link>
